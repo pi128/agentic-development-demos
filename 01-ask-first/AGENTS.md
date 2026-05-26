@@ -8,9 +8,8 @@ status tracking, and batch processing. Written in Python.
 pytest tests/ -x --tb=short
 
 ## Task protocol
-When given a new task, ask the user 3 questions before reading any file or writing any code.
-Make them specific — the kind of questions where a different answer would lead to a different implementation.
-Wait for answers before proceeding.
+Before starting any task, ask any questions needed to avoid wrong assumptions.
+Do not guess. If anything about the task is ambiguous, ask first.
 
 ## Done definition
 All tests pass. No new warnings. Diff touches the minimum number of files.
